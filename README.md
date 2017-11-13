@@ -11,7 +11,7 @@ This addon currently requires ember-cli-fastboot to also be installed as a depen
 
 This addon has been tested with Ember CLI 2.6.1.
 
-##Examples
+## Examples
 - [robwebdev/fastboot-website](https://github.com/robwebdev/fastboot-website) - A fork of the FastBoot website, [converted to a static site](https://github.com/robwebdev/fastboot-website/commit/ce3bca25a980b9a668aeb32aef01e44bcf5c8e23) using ember-cli-static-site.
 - [ember-cli-static-site-website](https://github.com/robwebdev/ember-cli-static-site-website) - The source for [ember-cli-static-site.com](http://www.ember-cli-static-com)
 
@@ -33,10 +33,10 @@ You need to tell the addon which routes to hit when the static site is generated
 
 `vendor.js` and `app.js` are not included in the generated pages therefore **the Ember app will not boot on the client**.
 
-##`link-to`
+## `link-to`
 Use `link-to` helpers as you would normally. The `href` attribute will be modified with a path to a static page.
 
-##`build` and `serve`
+## `build` and `serve`
 Use `ember build` and `ember serve` as you would normally. The static pages will be output to the dist path like a regular build.
 
 ## Collaboration
